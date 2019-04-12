@@ -1,0 +1,3 @@
+bcl2fastq -R <path_to_file>
+trim_galore --paired <path_to_file_R1> <path_to_file_R2>
+bismark <path_to_Hg19.fa> -1 <path_to_file_R1> <path_to_file_R2> --parallel 8 samtools sort <path_to_bamfile> -o <name_bamfile>

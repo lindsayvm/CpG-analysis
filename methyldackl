@@ -1,0 +1,3 @@
+MethylDackel extract --mergeContext -@ 30 <path_to_Hg19.fa> <path_to_bamfile>
+MethylDackel mbias -@ 30 <path_to_Hg19.fa> <path_to_bamfile>
+MethylDackel extract --mergeContext --OT X,X,X,X --OB X,X,X,X -@ 30 <path_to_Hg19.fa> <path_to_bamfile> # with X being any number suggested by mbias function
